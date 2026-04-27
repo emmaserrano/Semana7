@@ -19,11 +19,11 @@ fun DetalleScreen(navController: NavController, nombre: String) {
         verticalArrangement = Arrangement.Center
     ) {
 
-        Text("Detalle", style = MaterialTheme.typography.headlineMedium)
+        Text("Bienvenido(a)", style = MaterialTheme.typography.headlineMedium)
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        Text("Hola, $nombreSeguro ")
+        Text("$nombreSeguro ")
 
         Spacer(modifier = Modifier.height(30.dp))
 
